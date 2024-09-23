@@ -1,0 +1,27 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-cjp-blocks-text-container {
+  padding: 1rem;
+}
+.wp-block-cjp-blocks-text-container .text-container {
+  gap: 0.5rem;
+}
+.wp-block-cjp-blocks-text-container .text-container > * {
+  margin: 0;
+}
+
+.cta-btn {
+  padding: 0.5rem 1rem;
+  background-color: #2271b1;
+  color: #fff;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.cta-btn:hover {
+  color: #fff;
+}/*# sourceMappingURL=editor.css.map */

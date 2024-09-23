@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "cjp-blocks/section",
+	"version": "0.1.0",
+	"title": "Section",
+	"category": "custom-layout",
+	"icon": "layout",
+	"example": {},
+	"attributes": {
+		"background": {
+			"type": "string"
+		},
+		"isTrans": {
+			"type": "boolean"
+		},
+		"position": {
+			"type": "string"
+		},
+		"transFrom": {
+			"type": "string"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "section",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

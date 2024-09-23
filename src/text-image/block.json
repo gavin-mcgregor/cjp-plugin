@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "cjp-blocks/text-image",
+	"version": "0.1.0",
+	"title": "Text Image",
+	"category": "custom-layout",
+	"icon": "layout",
+	"example": {},
+	"attributes": {
+		"images": {
+			"type": "array",
+			"default": []
+		},
+		"rounded": {
+			"type": "boolean"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "text-image",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

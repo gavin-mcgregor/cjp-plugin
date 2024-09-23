@@ -1,0 +1,84 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-cjp-blocks-contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+.wp-block-cjp-blocks-contact-form form input[type=submit] {
+  border: none;
+  align-self: flex-end;
+  margin-top: 2rem;
+}
+.wp-block-cjp-blocks-contact-form form input[type=submit]:hover {
+  cursor: pointer;
+}
+.wp-block-cjp-blocks-contact-form .form-row:first-of-type {
+  border-top: var(--peach-400) 2px solid;
+}
+.wp-block-cjp-blocks-contact-form .form-row {
+  display: flex;
+  flex-direction: row;
+  border: var(--peach-400) 2px solid;
+  border-top-width: 0;
+  gap: 0;
+  padding: 1rem;
+  align-items: flex-start;
+}
+.wp-block-cjp-blocks-contact-form .form-row label {
+  color: var(--white);
+  min-width: 240px;
+  padding: 1rem;
+}
+.wp-block-cjp-blocks-contact-form .form-row input,
+.wp-block-cjp-blocks-contact-form .form-row textarea {
+  flex-grow: 1;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px solid var(--white);
+  color: var(--white);
+  margin: 1rem;
+}
+.wp-block-cjp-blocks-contact-form .form-row textarea {
+  min-height: 200px;
+}
+.wp-block-cjp-blocks-contact-form .form-row #checkbox-container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.wp-block-cjp-blocks-contact-form .form-row #checkbox-container label {
+  min-width: unset;
+  padding: 0;
+}
+
+@media (max-width: 640px) {
+  .wp-block-cjp-blocks-contact-form .form-row {
+    flex-direction: column;
+  }
+  .wp-block-cjp-blocks-contact-form .form-row input,
+  .wp-block-cjp-blocks-contact-form .form-row textarea {
+    width: 100%;
+    margin: 0;
+    padding: 0 1rem;
+  }
+  .wp-block-cjp-blocks-contact-form .form-row #checkbox-container {
+    gap: 1rem;
+    flex-grow: 1;
+  }
+  .wp-block-cjp-blocks-contact-form .form-row #checkbox-container .group-row {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 1rem;
+  }
+  .wp-block-cjp-blocks-contact-form .form-row #checkbox-container input {
+    flex-grow: 0;
+    margin: 0;
+    width: auto;
+    padding: 0;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,68 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.packages-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+
+	.col {
+		grid-column: span 2;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+}
+
+@media (max-width: 640px) {
+	.packages-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.package-card {
+		grid-column: span 2;
+	}
+}
+
+.package-card {
+	padding: 4rem;
+	border: 2px solid var(--blue-800);
+
+	.text-container {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		align-items: flex-start;
+	}
+
+	.package-title {
+		display: flex;
+		column-gap: 2rem;
+		row-gap: 0.5rem;
+		flex-wrap: wrap;
+	}
+
+	.package-price {
+		color: var(--blue-400);
+	}
+
+	ul {
+		padding-left: 2.5rem;
+	}
+
+	li {
+		list-style: disc;
+		padding-left: 1rem;
+		padding-bottom: 0.5rem;
+	}
+}
+
+@media (max-width: 980px) {
+	.package-card {
+		padding: 2rem;
+	}
+}

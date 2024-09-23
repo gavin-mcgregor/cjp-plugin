@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cjp-blocks/conclusion",
+  "version": "0.1.0",
+  "title": "Conclusion",
+  "category": "custom-layout",
+  "icon": "layout",
+  "example": {},
+  "attributes": {
+    "images": {
+      "type": "array",
+      "default": []
+    },
+    "backgroundFrom": {
+      "type": "string"
+    },
+    "backgroundTo": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "conclusion",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

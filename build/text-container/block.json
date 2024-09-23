@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cjp-blocks/text-container",
+  "version": "0.1.0",
+  "title": "Text Container",
+  "category": "custom-block",
+  "example": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "display": {
+      "type": "string"
+    },
+    "body": {
+      "type": "array",
+      "default": []
+    },
+    "buttonUrl": {
+      "type": "string"
+    },
+    "buttonTarget": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "text-container",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

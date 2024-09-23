@@ -1,0 +1,17 @@
+.offset-image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.offset-image-container img:last-of-type {
+  margin-top: 16rem;
+}
+
+@media (max-width: 640px) {
+  .offset-image-container {
+    gap: 1rem;
+  }
+  .offset-image-container img:last-of-type {
+    margin-top: 8rem;
+  }
+}/*# sourceMappingURL=style.css.map */

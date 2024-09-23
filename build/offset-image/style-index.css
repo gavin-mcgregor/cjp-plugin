@@ -1,0 +1,22 @@
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/offset-image/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
+.offset-image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.offset-image-container img:last-of-type {
+  margin-top: 16rem;
+}
+
+@media (max-width: 640px) {
+  .offset-image-container {
+    gap: 1rem;
+  }
+  .offset-image-container img:last-of-type {
+    margin-top: 8rem;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

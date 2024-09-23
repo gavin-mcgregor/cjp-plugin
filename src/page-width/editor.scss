@@ -1,0 +1,42 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-cjp-blocks-page-width {
+	background-color: #fff;
+	padding: 1rem 2rem;
+	box-sizing: border-box;
+
+	.wp-block {
+		max-width: 100%;
+		width: calc(100%);
+		box-sizing: border-box;
+	}
+}
+
+.wp-block-cjp-blocks-page-width:first-child {
+	margin-top: 0;
+}
+
+.wp-block-cjp-blocks-page-width:last-child {
+	margin-bottom: 0;
+}
+
+.page-container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-width {
+	max-width: 840px;
+}
+
+.page-extra {
+	max-width: calc(840px + 200px);
+}
+
+.page-full {
+	max-width: calc(100% - 2rem);
+}

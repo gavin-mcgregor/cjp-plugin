@@ -1,0 +1,169 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-cjp-blocks-conclusion {
+	background-color: unset !important;
+}
+
+// To peach
+
+.from-background-blue-600.to-background-peach-800 {
+	background-image: linear-gradient(
+		180deg,
+		var(--blue-600) 10rem,
+		var(--peach-800) 10rem
+	);
+}
+
+.from-background-clear.to-background-peach-800 {
+	background-image: linear-gradient(
+		180deg,
+		var(--clear) 10rem,
+		var(--peach-800) 10rem
+	);
+}
+
+.from-background-peach-800.to-background-peach-800 {
+	background-image: linear-gradient(
+		180deg,
+		var(--peach-800) 10rem,
+		var(--peach-800) 10rem
+	);
+}
+
+.from-background-peach-100.to-background-peach-800 {
+	background-image: linear-gradient(
+		180deg,
+		var(--peach-100) 10rem,
+		var(--peach-800) 10rem
+	);
+}
+
+// To blue
+
+.from-background-blue-600.to-background-blue-600 {
+	background-image: linear-gradient(
+		180deg,
+		var(--blue-600) 10rem,
+		var(--blue-600) 10rem
+	);
+}
+
+.from-background-clear.to-background-blue-600 {
+	background-image: linear-gradient(
+		180deg,
+		var(--clear) 10rem,
+		var(--blue-600) 10rem
+	);
+}
+
+.from-background-peach-800.to-background-blue-600 {
+	background-image: linear-gradient(
+		180deg,
+		var(--peach-800) 10rem,
+		var(--blue-600) 10rem
+	);
+}
+
+.from-background-peach-100.to-background-blue-600 {
+	background-image: linear-gradient(
+		180deg,
+		var(--peach-100) 10rem,
+		var(--blue-600) 10rem
+	);
+}
+
+// To clear
+
+.from-background-blue-600.to-background-clear {
+	background-image: linear-gradient(
+		180deg,
+		var(--blue-600) 10rem,
+		var(--clear) 10rem
+	);
+}
+
+.from-background-clear.to-background-clear {
+	background-image: linear-gradient(
+		180deg,
+		var(--clear) 10rem,
+		var(--clear) 10rem
+	);
+}
+
+.from-background-peach-800.to-background-clear {
+	background-image: linear-gradient(
+		180deg,
+		var(--peach-800) 10rem,
+		var(--clear) 10rem
+	);
+}
+
+.from-background-peach-100.to-background-clear {
+	background-image: linear-gradient(
+		180deg,
+		var(--peach-100) 10rem,
+		var(--clear) 10rem
+	);
+}
+
+// To Cream
+
+.from-background-blue-600.to-background-peach-100 {
+	background-image: linear-gradient(
+		180deg,
+		var(--blue-600) 10rem,
+		var(--peach-100) 10rem
+	);
+}
+
+.from-background-clear.to-background-peach-100 {
+	background-image: linear-gradient(
+		180deg,
+		var(--clear) 10rem,
+		var(--peach-100) 10rem
+	);
+}
+
+.from-background-peach-800.to-background-peach-100 {
+	background-image: linear-gradient(
+		180deg,
+		var(--peach-800) 10rem,
+		var(--peach-100) 10rem
+	);
+}
+
+.from-background-peach-100.to-background-peach-100 {
+	background-image: linear-gradient(
+		180deg,
+		var(--peach-100) 10rem,
+		var(--peach-100) 10rem
+	);
+}
+
+.conclusion-container {
+	overflow: hidden;
+
+	.text-script {
+		margin: 0 4rem;
+		white-space: nowrap;
+	}
+}
+.conclusion-container.background-blue-600 {
+	background-color: unset;
+
+	.text-script {
+		color: var(--blue-400);
+	}
+}
+.conclusion-container.background-peach-800 {
+	background-color: unset;
+
+	.text-script {
+		color: var(--peach-600);
+	}
+}

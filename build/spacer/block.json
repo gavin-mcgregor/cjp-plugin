@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cjp-blocks/spacer",
+  "version": "0.1.0",
+  "title": "Spacer",
+  "category": "custom-block",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "spacer",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "render": "file:./render.php"
+}

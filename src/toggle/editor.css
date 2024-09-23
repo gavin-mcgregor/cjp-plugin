@@ -1,0 +1,17 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-cjp-blocks-toggle-container {
+  padding: 1rem;
+}
+
+.wp-block-cjp-blocks-toggle {
+  gap: 0rem;
+  padding: 0;
+}
+.wp-block-cjp-blocks-toggle p,
+.wp-block-cjp-blocks-toggle h3 {
+  margin: 0;
+}/*# sourceMappingURL=editor.css.map */

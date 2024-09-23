@@ -1,0 +1,48 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-cjp-blocks-offset-image {
+	.image-container {
+		display: flex;
+		gap: 1rem;
+		align-items: flex-start;
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		img:last-of-type {
+			margin-top: 2rem;
+		}
+	}
+}
+
+.gallery-order {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 1rem;
+
+	li {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		gap: 1rem;
+		border-bottom: 1px solid #e0e0e0;
+	}
+
+	img {
+		width: 50%;
+	}
+}
+
+.corner-rounded {
+	border-radius: 0.5rem;
+	overflow: hidden;
+}

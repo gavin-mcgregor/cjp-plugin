@@ -1,0 +1,48 @@
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/section/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.trans-container {
+  overflow: hidden;
+  line-height: 0;
+}
+.trans-container svg {
+  margin-bottom: -1px;
+}
+
+.trans-container.from-background-clear {
+  background-color: var(--cream-200);
+}
+
+.trans-container.from-background-blue-600 {
+  background-color: var(--blue-600);
+}
+
+.trans-container.from-background-peach-800 {
+  background-color: var(--peach-800);
+}
+
+.trans-container.from-background-peach-100 {
+  background-color: var(--peach-100);
+}
+
+.background-peach-800 .trans-container svg {
+  fill: var(--peach-800);
+}
+
+.background-blue-600 .trans-container svg {
+  fill: var(--blue-600);
+}
+
+.background-peach-100 .trans-container svg {
+  fill: var(--peach-100);
+}
+
+.background-clear .trans-container svg {
+  fill: var(--clear);
+}

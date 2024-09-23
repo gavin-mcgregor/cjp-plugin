@@ -1,0 +1,36 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-cjp-blocks-packages-container {
+	.package-single {
+		border: 1px solid;
+		margin-bottom: 1rem;
+		padding: 1rem;
+	}
+
+	p,
+	h3 {
+		margin: 0;
+	}
+}
+
+.list-order {
+	display: flex;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+
+.list-order:last-of-type {
+	margin-bottom: 0;
+}
+
+.list-input {
+	margin-bottom: 0 !important;
+
+	> * {
+		margin-bottom: 0 !important;
+	}
+}

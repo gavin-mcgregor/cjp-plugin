@@ -1,0 +1,41 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+// .wp-block-cjp-blocks-text-container {}
+
+.text-container {
+	max-width: 55ch;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 2rem;
+
+	.text-title,
+	.text-display {
+		text-wrap: balance;
+	}
+}
+
+.text-container.full-width {
+	max-width: 100%;
+}
+
+.background-peach-800 .text-container {
+	color: var(--cream-400);
+
+	.text-subtitle {
+		color: var(--peach-400);
+	}
+}
+
+.background-blue-600 .text-container {
+	color: var(--cream-400);
+
+	.text-subtitle {
+		color: var(--blue-400);
+	}
+}

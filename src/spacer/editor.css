@@ -1,0 +1,24 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-cjp-blocks-spacer {
+  background-color: #fff;
+  border: 2px solid #fff;
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  transition: background-color 0.3s ease-in;
+}
+.wp-block-cjp-blocks-spacer span {
+  color: #fff;
+  transition: color 0.3s ease-in;
+}
+
+.wp-block-cjp-blocks-spacer:hover {
+  background-color: #f0f0f1;
+}
+.wp-block-cjp-blocks-spacer:hover span {
+  color: #3c434a;
+}/*# sourceMappingURL=editor.css.map */

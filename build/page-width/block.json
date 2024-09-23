@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cjp-blocks/page-width",
+  "version": "0.1.0",
+  "title": "Page Width",
+  "category": "custom-layout",
+  "icon": "layout",
+  "example": {},
+  "attributes": {
+    "width": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "page-width",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}

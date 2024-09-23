@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cjp-blocks/toggle-container",
+  "version": "0.1.0",
+  "title": "Toggle Container",
+  "category": "custom-layout",
+  "icon": "layout",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "toggle-container",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}

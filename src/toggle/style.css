@@ -1,0 +1,64 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.toggle-container {
+  padding-top: 2rem;
+  max-width: 55ch;
+}
+
+.toggle-single {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  gap: 2rem;
+  border-top: solid 2px var(--blue-600);
+  padding: 2rem 0;
+  overflow: hidden;
+  transition: height 0.3s ease-in;
+}
+.toggle-single button {
+  background-color: unset;
+  color: var(--blue-800);
+  border: none;
+  text-align: left;
+}
+.toggle-single a {
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+}
+
+.toggle-single:last-child {
+  border-bottom: solid 2px var(--blue-600);
+}
+
+.toggle-single svg {
+  position: absolute;
+  right: 0;
+  top: 2.5rem;
+  width: 1.5rem;
+  transform: rotate(90deg);
+  transition: transform 0.3s ease-in;
+}
+
+.toggle-content {
+  display: none;
+}
+
+.toggle-content.visible {
+  display: block;
+}
+
+.toggle-single.open svg {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 640px) {
+  .toggle-container .toggle-single svg {
+    top: 2rem;
+    width: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */

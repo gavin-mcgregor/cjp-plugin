@@ -1,0 +1,53 @@
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/post-container/style.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
+.post-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.post-container h1,
+.post-container h2,
+.post-container h3,
+.post-container h4 {
+  font-family: "gt ultra median black", sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 1em;
+}
+.post-container a {
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+}
+.post-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-right: 2rem;
+  margin: 2rem 0;
+}
+.post-container li {
+  list-style: disc;
+  padding-right: 2rem;
+}
+
+@media (max-width: 640px) {
+  .post-container {
+    gap: 1rem;
+  }
+  .post-container h1,
+  .post-container h2,
+  .post-container h3,
+  .post-container h4 {
+    font-size: 1.5rem;
+    line-height: 1em;
+  }
+  .post-container ul {
+    gap: 1rem;
+    padding-right: 1rem;
+    margin: 1rem 0;
+  }
+  .post-container li {
+    padding-right: 1rem;
+  }
+}

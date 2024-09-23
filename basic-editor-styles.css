@@ -1,0 +1,11 @@
+/* Background */
+
+.editor-styles-wrapper {
+	background-color: #eee;
+}
+
+/* Images */
+
+.wp-block-image {
+	margin: 28px auto;
+}
